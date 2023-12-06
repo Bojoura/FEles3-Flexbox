@@ -1,1 +1,55 @@
-/*Schrijf hier jouw CSS*/
+/* Body */
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* Header */
+
+Header {
+    display: flex;
+    flex-basis: 150px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+article {
+    flex-basis: 60vw;
+    flex-grow: 1;
+    flex-shrink: 1;
+    order: 2;
+}
+
+nav{
+    flex-basis: 20vw;
+    flex-grow: 1;
+    flex-shrink: 0;
+    order: 1;
+}
+
+aside {
+    flex-basis: 20vw;
+    flex-grow: 1;
+    flex-shrink: 0;
+    order: 3;
+}
+
+/* Footer */
+
+footer {
+    flex-basis: 150px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
